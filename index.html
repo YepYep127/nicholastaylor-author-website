@@ -16,7 +16,7 @@
       <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">☰</button>
       <ul id="main-nav">
         <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="blog/index.html">Blog</a></li>
+        
         <li class="dropdown">
           <a href="#" onclick="toggleDropdown(event, this)">Collection ▾</a>
           <ul class="dropdown-menu">
@@ -30,7 +30,7 @@
         </li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://patreon.com/NicholasTaylor" target="_blank" rel="noopener">Patreon</a></li>
+        
       </ul>
     </nav>
   </header>
@@ -40,15 +40,23 @@
 
     <!-- Featured Book -->
     <section class="hero">
-      <div class="hero__cover">
-        <img src="images/covers/ash-and-ruin.jpg" alt="Ash and Ruin — Book One of the Essaerist War by Nicholas Taylor">
-      </div>
-      <div class="hero__content">
-        <p class="hero__tagline">They march for conquest. They fight for survival. But war answers to no one.</p>
-        <p class="hero__description">
-          Blood turns the ground to mud. Smoke blots out the sky. The war drums of Lysandrian echo across a world on the edge of conquest. For generations, the Ulfgarath have raided the frontier, carving their names into legend with steel and fire. But now, the empire marches—not for retribution, but for annihilation. The invasion has begun. The old world is burning. And what rises from the ashes may never be the same.
-        </p>
-        <a href="books/essaerist-war.html" class="btn">Explore the Series</a>
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__cover">
+            <img src="images/covers/cinder-and-sorrow.jpg" alt="Cinder and Sorrow — Book Two of the Essaerist War by Nicholas Taylor">
+          </div>
+          <div class="hero__content">
+            <p class="hero__tagline">In conquest's shadow, even hope must bleed.</p>
+            <div class="hero__description">
+              <p>Ashes fall like snow. The crumbled walls of fortresses rise like tombstones, unable to protect the slain. The war that scorched the frontier now spreads like a storm across the heartlands.</p>
+              <p>Lines once drawn in blood begin to blur — between conqueror and protector, justice and revenge, duty and defiance. In the silence between battles, some seek shelter. Others, absolution. But the fires of empire burn on, consuming not just cities, but the very truths people once held sacred.</p>
+              <p>And across the land, those who wield the power to shape the world must ask: What is worth preserving… and what must be turned to cinders?</p>
+            </div>
+            <div class="hero__buy">
+              <a href="https://books2read.com/u/4NnYR9" target="_blank" rel="noopener" class="btn btn--filled">Available Everywhere</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -64,6 +72,14 @@
             </div>
             <div class="book-card__title">Ash and Ruin</div>
             <div class="book-card__series">Essaerist War · Book 1</div>
+          </a>
+
+          <a href="books/essaerist-war.html" class="book-card">
+            <div class="book-card__cover">
+              <img src="images/covers/cinder-and-sorrow.jpg" alt="Cinder and Sorrow">
+            </div>
+            <div class="book-card__title">Cinder and Sorrow</div>
+            <div class="book-card__series">Essaerist War · Book 2</div>
           </a>
 
           <a href="books/legon-series.html" class="book-card">
@@ -158,39 +174,6 @@
       </div>
     </section>
 
-    <!-- Short Stories -->
-    <section class="book-section">
-      <div class="container">
-        <h2 class="book-section__title">Short Stories</h2>
-        <div class="book-grid">
-
-          <div class="book-card">
-            <div class="book-card__cover">
-              <img src="images/covers/heretic-hunt.jpg" alt="Heretic Hunt">
-            </div>
-            <div class="book-card__title">Heretic Hunt</div>
-            <div class="book-card__series">Short Story · Fiction</div>
-          </div>
-
-          <div class="book-card">
-            <div class="book-card__cover">
-              <img src="images/covers/alone.jpg" alt="Alone">
-            </div>
-            <div class="book-card__title">Alone</div>
-            <div class="book-card__series">Short Story · Fiction</div>
-          </div>
-
-          <div class="book-card">
-            <div class="book-card__cover">
-              <img src="images/covers/incubus.jpg" alt="Incubus">
-            </div>
-            <div class="book-card__title">Incubus</div>
-            <div class="book-card__series">Short Story · Fiction</div>
-          </div>
-
-        </div>
-      </div>
-    </section>
 
   </main>
 
@@ -218,7 +201,7 @@
       <a href="https://www.goodreads.com/NicholasTaylor" target="_blank" rel="noopener">Goodreads</a>
       <a href="https://www.threads.net/@ntaylor1981" target="_blank" rel="noopener">Threads</a>
       <a href="https://www.instagram.com/ntaylor1981/" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://patreon.com/NicholasTaylor" target="_blank" rel="noopener">Patreon</a>
+      
     </div>
     <p class="footer-copyright">Text Copyright &copy; Nicholas Taylor 2024. All rights reserved.</p>
   </footer>
